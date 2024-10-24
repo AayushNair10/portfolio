@@ -1,0 +1,57 @@
+.activities-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 350px;
+  margin: 2rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #141414;
+
+  .activities-content {
+    margin-top: 10px;
+    text-align: center;
+
+    .name {
+      font-size: 1.1rem;
+    }
+
+    .description {
+      color: #393939;
+      font-size: 1rem;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+    }
+
+    .activities-date {
+      margin-top: 0.2rem;
+      color: #626262;
+      font-weight: lighter;
+      font-size: 0.75rem;
+    }
+
+    .event_title {
+      color: #6baa75;
+      font-size: 1.5rem;
+      margin-top: 0.25rem;
+    }
+
+    // Style for links within the activities-content
+    a {
+      color: #6baa75; // Link color
+      text-decoration: none; // Remove underline
+      transition: color 0.3s ease; // Smooth color transition
+
+      &:hover {
+        color: #4f8b61; // Change link color on hover
+        text-decoration: underline; // Underline on hover for clarity
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  }
+}
