@@ -18,6 +18,16 @@ const projectItems = [
 
     },
 
+    {
+      name: "https://doi.org/10.1109/ICEI64305.2024.10912340",
+      description:
+        "",
+      gitLink: "https://doi.org/10.1109/ICEI64305.2024.10912340",
+      urlLink: "https://doi.org/10.1109/ICEI64305.2024.10912340",
+      skills: [],    
+
+    },
+
   ];
 
   export default projectItems;
