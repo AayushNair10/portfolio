@@ -21,7 +21,7 @@ const projectItems = [
     {
       name: "A Novel RoPE-Enhanced Informer Approach for Accurate Remaining Useful Life Prediction of Lithium-Ion Batteries",
       description:
-        "This paper proposes a deep learning model that integrates Rotary Positional Embedding (RoPE) with the Informer architecture to improve long-term sequence forecasting. It efficiently captures positional dependencies while reducing memory usage, achieving superior accuracy in Remaining Useful Life (RUL) prediction compared to existing methods.",
+        "IEEE publication",
       gitLink: "https://doi.org/10.1109/ICEI64305.2024.10912340",
       urlLink: "https://doi.org/10.1109/ICEI64305.2024.10912340",
       skills: [],    
