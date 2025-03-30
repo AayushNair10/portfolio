@@ -19,7 +19,7 @@ const projectItems = [
     },
 
     {
-      name: "https://doi.org/10.1109/ICEI64305.2024.10912340",
+      name: "A Novel RoPE-Enhanced Informer Approach for Accurate Remaining Useful Life Prediction of Lithium-Ion Batteries",
       description:
         "",
       gitLink: "https://doi.org/10.1109/ICEI64305.2024.10912340",
